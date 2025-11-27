@@ -1,0 +1,15 @@
+{
+  "originHash" : "79cfa5df912793f80ddc8a9a0aa3afed48ef76f6ef51729794594308a3cd704a",
+  "pins" : [
+    {
+      "identity" : "wordsearchkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mylogon341/WordSearchKit.git",
+      "state" : {
+        "revision" : "3bffca659a2e0490926d6799a8e7a944e6a1431a",
+        "version" : "0.1.0"
+      }
+    }
+  ],
+  "version" : 3
+}

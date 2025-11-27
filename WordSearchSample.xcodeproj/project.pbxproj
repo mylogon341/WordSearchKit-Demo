@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A36E74882ED87C480021992A /* WordSearchKit in Frameworks */ = {isa = PBXBuildFile; productRef = A36E74872ED87C480021992A /* WordSearchKit */; };
+		A376B9712ED8BA1C006CA787 /* WordSearchKit in Frameworks */ = {isa = PBXBuildFile; productRef = A376B9702ED8BA1C006CA787 /* WordSearchKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A36E74882ED87C480021992A /* WordSearchKit in Frameworks */,
+				A376B9712ED8BA1C006CA787 /* WordSearchKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +73,7 @@
 			name = WordSearchSample;
 			packageProductDependencies = (
 				A36E74872ED87C480021992A /* WordSearchKit */,
+				A376B9702ED8BA1C006CA787 /* WordSearchKit */,
 			);
 			productName = WordSearchSample;
 			productReference = A36E74732ED87AFE0021992A /* WordSearchSample.app */;
@@ -101,7 +104,7 @@
 			mainGroup = A36E746A2ED87AFE0021992A;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				A36E74862ED87C480021992A /* XCLocalSwiftPackageReference "../WordSearchKit" */,
+				A376B96F2ED8BA1C006CA787 /* XCRemoteSwiftPackageReference "WordSearchKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A36E74742ED87AFE0021992A /* Products */;
@@ -342,16 +345,25 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		A36E74862ED87C480021992A /* XCLocalSwiftPackageReference "../WordSearchKit" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../WordSearchKit;
+/* Begin XCRemoteSwiftPackageReference section */
+		A376B96F2ED8BA1C006CA787 /* XCRemoteSwiftPackageReference "WordSearchKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mylogon341/WordSearchKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		A36E74872ED87C480021992A /* WordSearchKit */ = {
 			isa = XCSwiftPackageProductDependency;
+			productName = WordSearchKit;
+		};
+		A376B9702ED8BA1C006CA787 /* WordSearchKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A376B96F2ED8BA1C006CA787 /* XCRemoteSwiftPackageReference "WordSearchKit" */;
 			productName = WordSearchKit;
 		};
 /* End XCSwiftPackageProductDependency section */
